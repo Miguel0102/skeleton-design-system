@@ -1,5 +1,5 @@
 {
-  "version": "0.1.47",
+  "version": "0.1.62",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -85,6 +85,7 @@
     "cssnano": "^5.1.14",
     "postcss": "^8.4.21",
     "rollup-plugin-postcss": "^4.0.2",
-    "rollup-plugin-scss": "^4.0.0"
+    "rollup-plugin-scss": "^4.0.0",
+    "rollup-plugin-svg": "^2.0.0"
   }
 }

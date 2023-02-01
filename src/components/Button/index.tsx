@@ -1,7 +1,7 @@
 import './Button.scss';
 import * as CSS from 'csstype';
 import React from 'react';
-
+import { Images } from '../../assets/images/images.index';
 export interface IPropsButton {
   label?: string;
   className?: string;
@@ -39,7 +39,10 @@ const Button: React.FC<IPropsButton> = (props) => {
       {!props.children ? (
         <>
           <span className="btn__label">{props.label}</span>
-          image
+          <div
+            className="btn__icon"
+            dangerouslySetInnerHTML={{ __html: Images.iconButton }}
+          ></div>
         </>
       ) : (
         <>{props.children}</>
